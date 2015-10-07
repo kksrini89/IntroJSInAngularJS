@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>introjs</id>
+    <version>1.1.1</version>
+    <title>Intro.js</title>
+    <authors>Afshin Mehrabani</authors>
+    <owners>Afshin Mehrabani</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>http://usablica.github.io/intro.js/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/sirkirby/intro-js-nuget/master/pkglogo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Better introductions for websites and features with a step-by-step guide for your projects. Package issues? Please  post them here https://github.com/sirkirby/intro-js-nuget/issues</description>
+    <releaseNotes>latest source release.
+
+https://github.com/usablica/intro.js/releases/tag/v1.1.1</releaseNotes>
+    <tags>intro introjs introduction tutorial guide javascript</tags>
+  </metadata>
+</package>
