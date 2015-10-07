@@ -77,6 +77,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\Registration\app.js" />
+    <Content Include="App\Registration\College\Controllers\CollegeController.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -904,7 +906,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\Registration\" />
+    <Folder Include="App\Registration\College\Factory\" />
+    <Folder Include="App\Registration\College\Partial\" />
+    <Folder Include="App\Registration\Events\Controllers\" />
+    <Folder Include="App\Registration\Events\Factory\" />
+    <Folder Include="App\Registration\Events\Partial\" />
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
