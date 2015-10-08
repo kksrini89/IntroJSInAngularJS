@@ -79,6 +79,10 @@
   <ItemGroup>
     <Content Include="App\Registration\app.js" />
     <Content Include="App\Registration\College\Controllers\CollegeController.js" />
+    <Content Include="App\Registration\College\Factory\CollegeDataService.js" />
+    <Content Include="App\Registration\College\Partial\college.html" />
+    <Content Include="App\Registration\Events\Controllers\EventController.js" />
+    <Content Include="App\Registration\Events\Factory\EventDataService.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -121,6 +125,8 @@
     <Content Include="Scripts\angular-scenario.js" />
     <Content Include="Scripts\angular-touch.js" />
     <Content Include="Scripts\angular-touch.min.js" />
+    <Content Include="Scripts\angular-ui-router.js" />
+    <Content Include="Scripts\angular-ui-router.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\errors.json" />
@@ -906,10 +912,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\Registration\College\Factory\" />
-    <Folder Include="App\Registration\College\Partial\" />
-    <Folder Include="App\Registration\Events\Controllers\" />
-    <Folder Include="App\Registration\Events\Factory\" />
     <Folder Include="App\Registration\Events\Partial\" />
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
