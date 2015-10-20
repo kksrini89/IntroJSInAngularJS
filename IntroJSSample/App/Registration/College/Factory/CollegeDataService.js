@@ -3,9 +3,9 @@
     angular.module('registrationModule').factory('clgDataService', function () {
         return {
             colleges: [{
-                "MSV": "Chennai",
-                "MIT": "Chennai",
-                "NIT":"Trichy"
+                "Name": "MIT",
+                "Place": "Chennai",
+                "State":"TN"
             }]
         };
     });

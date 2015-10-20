@@ -83,6 +83,7 @@
     <Content Include="App\Registration\College\Partial\college.html" />
     <Content Include="App\Registration\Events\Controllers\EventController.js" />
     <Content Include="App\Registration\Events\Factory\EventDataService.js" />
+    <Content Include="App\Registration\Events\Partial\event.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -912,7 +913,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App\Registration\Events\Partial\" />
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
