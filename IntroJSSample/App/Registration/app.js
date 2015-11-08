@@ -1,15 +1,15 @@
 ﻿'use strict';
 (function () {
     var app = angular.module('registrationModule', ['ui.router']);
-    app.config(['$stateProvider', function ($stateProvider) {
+    app.config(['$stateProvider', function ($stateProvider) {      
         $stateProvider.state('College', {
             url: '/college',
-            templateUrl: 'App/Registration/College/Partial/college.html',
+            templateUrl: '/App/Registration/College/Partial/college.html',
             controller: 'clgController'
-        });
-        $stateProvider.state('Event', {
+        })
+        .state('Event', {
             url: '/event',
-            templateUrl: 'App/Registration/Events/Partial/event.html',
+            templateUrl: '/App/Registration/Events/Partial/event.html',
             controller: 'eventController'
         });
     }]);

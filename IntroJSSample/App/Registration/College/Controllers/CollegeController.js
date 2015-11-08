@@ -4,30 +4,34 @@
         angular.extend($scope, {
             colleges: clgDataService.colleges
         });
-        $scope.IntroJsDemoClick = function () {
+
+        $scope.IntroDemo = function () {
             var intro = introJs();
-            intro.setOptions = {
+
+            intro.setOptions({
                 steps: [{
                     element: document.querySelector('#homeId'),
-                    intro: 'Home page'
+                    intro: '<p>Home Page</p>'
                 }, {
                     element: document.querySelector('#clgId'),
-                    intro: 'You can view the College Details'
-                },
-                {
+                    intro: '<p>You can see the College Details which conducts events</p>'
+                }, {
                     element: document.querySelector('#eveId'),
-                    intro: 'You can view the event details'
+                    intro: '<p>Event Details</p>'
                 }],
                 showStepNumbers: true,
-                showBullets: false,
+                showBullets: true,
                 exitOnOverlayClick: false,
                 exitOnEsc: true,
-                nextLabel: '<strong>NEXT</strong>',
-                prevLabel: '<span>PREV</span>',
-                skipLabel: 'EXIT',
-                doneLabel: 'DONE'
-            }
+                tooltipPosition: 'auto',
+                nextLabel: 'NEXT',
+                prevLabel: 'PREV',
+                skipLabel: 'SKIP',
+                doneLabel: '<strong style="color:green">DONE</strong>'
+            });
+
             intro.start();
         };
+
     }]);
 })();

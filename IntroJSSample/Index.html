@@ -1,9 +1,11 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" ng-app="registrationModule">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IntroJS Sample</title>
-    <link rel="stylesheet" href="Content/bootstrap.min.css" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/introjs.min.css" rel="stylesheet" />
+    <link href="Content/Custom.css" rel="stylesheet" />
     <script src="Scripts/jquery-1.9.1.js"></script>
     <script src="Scripts/bootstrap.js"></script>
     <script src="Scripts/angular.js"></script>
@@ -11,17 +13,19 @@
     <script src="Scripts/intro.js"></script>
     <script src="App/Registration/app.js"></script>
     <script src="App/Registration/College/Controllers/CollegeController.js"></script>
+    <script src="App/Registration/College/Controllers/CollegeController.js"></script>
     <script src="App/Registration/College/Factory/CollegeDataService.js"></script>
     <script src="App/Registration/Events/Controllers/EventController.js"></script>
     <script src="App/Registration/Events/Factory/EventDataService.js"></script>
+
 </head>
 <body>
     <h2>Main Page</h2>
-    <div class="container-fluid">
-        <ul class="nav nav-pills nav-justified">
-            <li class="active"><a id="homeId" ui-sref="#">Home</a></li>
-            <li><a id="clgId" ui-sref="College">College</a></li>
-            <li><a id="eveId" ui-sref="Event">Event</a></li>
+    <div class="container">
+        <ul class="nav nav-pills" role="tablist">
+            <li class="active"><a ui-sref="#" id="homeId" class="btn btn-primary">Home</a></li>
+            <li><a ui-sref="College" id="clgId" class="btn btn-primary">College</a></li>
+            <li><a ui-sref="Event" id="eveId" class="btn btn-primary">Events</a></li>
         </ul>
         <div ui-view></div>
     </div>
